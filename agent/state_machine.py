@@ -1,0 +1,9 @@
+from enum import Enum
+
+class AgentState(Enum):
+    START = "START"
+    COLLECT_INFO = "COLLECT_INFO"
+    VALIDATE_INFO = "VALIDATE_INFO"
+    CHECK_ELIGIBILITY = "CHECK_ELIGIBILITY"
+    RECOMMEND_SCHEME = "RECOMMEND_SCHEME"
+    END = "END"
