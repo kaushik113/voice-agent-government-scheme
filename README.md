@@ -89,8 +89,8 @@ The agent maintains memory for:
 
 ---
 
-## 📁 Project Structure
 
+## 📁 Project Structure
 
 .
 ├── app.py  
@@ -110,7 +110,7 @@ The agent maintains memory for:
 ├── tools/  
 │   ├── eligibility.py  
 │   ├── schemes_db.json  
-│   └── __init__.py  
+│   └── __init__.py    
 ---
 
 ## ▶️ How to Run
