@@ -90,26 +90,27 @@ The agent maintains memory for:
 ---
 
 ## 📁 Project Structure
-.
-├── app.py
-├── README.md
-├── agent/
-│ ├── state_machine.py
-│ ├── memory.py
-│ ├── llm_normalizer.py
-│ └── init.py
-├── stt/
-│ ├── whisper_stt.py
-│ └── init.py
-├── tts/
-│ ├── gtts_tts.py
-│ └── init.py
-├── tools/
-│ ├── eligibility.py
-│ ├── schemes_db.json
-│ └── init.py
-├── requirements.txt
 
+
+.
+├── app.py  
+├── README.md  
+├── requirements.txt  
+├── agent/  
+│   ├── state_machine.py  
+│   ├── memory.py  
+│   ├── llm_normalizer.py  
+│   └── __init__.py  
+├── stt/  
+│   ├── whisper_stt.py  
+│   └── __init__.py  
+├── tts/  
+│   ├── gtts_tts.py  
+│   └── __init__.py  
+├── tools/  
+│   ├── eligibility.py  
+│   ├── schemes_db.json  
+│   └── __init__.py  
 ---
 
 ## ▶️ How to Run
